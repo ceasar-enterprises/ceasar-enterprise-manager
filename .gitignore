@@ -1,0 +1,23 @@
+# Runtime state - never committed.
+# auth.json holds the scrypt password hash; everything else is live farm data.
+data/
+
+# Internal vault product notes, not source.
+*.md
+!README.md
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies (this project has none by design, but keep node safe)
+node_modules/
+
+# Logs and editor noise
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

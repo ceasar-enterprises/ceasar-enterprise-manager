@@ -1,0 +1,25 @@
+{
+  "name": "ceasar-enterprise-manager",
+  "version": "0.1.0",
+  "description": "Single-file herd, farmer and finance manager for a goat cooperative. Zero dependencies, offline-first, optional local AI.",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test --test-timeout=20000 tests/*.test.js"
+  },
+  "keywords": [
+    "livestock",
+    "herd-management",
+    "cooperative",
+    "agriculture",
+    "finance",
+    "offline-first",
+    "zero-dependency",
+    "uganda"
+  ]
+}
